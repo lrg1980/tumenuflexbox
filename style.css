@@ -34,3 +34,45 @@ nav ul a {
     text-decoration: none;
     font-size: 1.4rem;
 }
+
+/* Menu Sencillo */
+.sencillo ul{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sencillo ul li {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+@media screen and (min-width:768px){
+    .sencillo ul{
+        flex-direction: row;
+    }
+    .sencillo ul li {
+        margin-bottom: 0;
+    }
+}
+
+/* Menu Con Iconos */
+.sencillo ul{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sencillo ul li {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+@media screen and (min-width:768px){
+    .sencillo ul{
+        flex-direction: row;
+    }
+    .sencillo ul li {
+        margin-bottom: 0;
+    }
+}
+
+
