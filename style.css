@@ -56,23 +56,8 @@ nav ul a {
 }
 
 /* Menu Con Iconos */
-.sencillo ul{
+.iconos ul{
     display:flex;
-    justify-content: space-around;
-    flex-direction: column;
-}
-
-.sencillo ul li {
-    text-align: center;
-    margin-bottom: .5rem;
-}
-@media screen and (min-width:768px){
-    .sencillo ul{
-        flex-direction: row;
-    }
-    .sencillo ul li {
-        margin-bottom: 0;
-    }
 }
 
 
